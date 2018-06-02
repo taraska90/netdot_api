@@ -72,8 +72,8 @@ with open('ups_file', 'r') as ibp:
             device.snmp_target = ip_id
             device.owner = entity_id
             device.site = site_id
-            device.save() #  сначала сохраняется с именем  3386.defaultdomain
+            device.save() #  At first saved with name: 3386.defaultdomain
             device.name = rname.id
-            device.save() #  а вот теперь все норм
+            device.save() #  All right now
 
 
